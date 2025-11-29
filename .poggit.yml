@@ -4,5 +4,6 @@ branches:
 - main
 projects:
   AntiVoid:
+    icon: icon.png
     path: ""
 ...
