@@ -12,7 +12,7 @@ class Main extends PluginBase implements Listener {
 
     public function onEnable(): void {
         $this->saveDefaultConfig();
-        $this->getServer()->gegtPluginManager()->registerEvents($this, $this);
+        $this->getServer()->getPluginManager()->registerEvents($this, $this);
     }
 
     public function onPlayerMove(PlayerMoveEvent $event): void {
