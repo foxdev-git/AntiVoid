@@ -26,7 +26,6 @@ class Main extends PluginBase implements Listener {
 
         if ($voidY !== null && is_numeric($voidY) && $y < (int)$voidY) {
             $player->teleport($world->getSpawnLocation());
-            $player->sendMessage("§cDu bist in die Leere gefallen!");
         }
     }
 }
