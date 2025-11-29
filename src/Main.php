@@ -25,10 +25,8 @@ class Main extends PluginBase implements Listener {
         $voidY = $config->get($worldName);
 
         if ($voidY !== null && is_numeric($voidY) && $y < (int)$voidY) {
-            $defaultWorld = $this->getServer()->getWorldManager()->getDefaultWorld();
-            if ($defaultWorld !== null) {
-                $player->teleport($defaultWorld->getSpawnLocation());
-            }
+            $spawn = $world->getSpawnLocation();
+            $player->teleport($spawn);
         }
     }
 }
