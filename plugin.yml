@@ -1,5 +1,5 @@
 name: AntiVoid
-version: 1.0
+version: 1.1.0
 main: foxdev\AntiVoid\Main
 api: 5.0.0
 src-namespace-prefix: foxdev\AntiVoid
